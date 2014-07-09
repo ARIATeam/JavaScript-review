@@ -1,0 +1,83 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: lavender;
+  font-family: Helvetica;
+  font-size: 16px;
+  text-align: center;
+}
+
+fieldset{
+  background: white;
+  border: thin solid skyblue;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+form{
+  margin: 0.5em auto;
+  width: 80%;
+}
+
+input[type="button"]{
+  background: #F60;
+  border-radius: thin solid transparent;
+  border-radius: .5em;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 1em;
+  padding: .5em;
+}
+
+input[type="button"]:hover{
+  background: skyblue;
+  border-radius: thin solid #F60;
+  border-radius: 0;
+  color: #F60;
+}
+
+input[type="radio"], label{
+  cursor: pointer;
+}
+
+input[type="text"], textarea{
+  background: #DDD;
+  border: thin solid skyblue;
+  border-radius: 1em;
+  color: #F60;
+  font-size: 1em;
+  padding: .25em;
+
+}
+
+input[type="text"]:focus, textarea:focus{
+  background: aliceblue;
+}
+
+textarea{
+  resize: none;
+}
+
+
+legend{
+  color: #F60;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.cambio{
+
+  -ms-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+:focus{
+  box-shadow: .1em .1em .5em rgba(255,102,0,.5);
+  outline: thin solid #F60;
+}
